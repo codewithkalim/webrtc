@@ -75,7 +75,7 @@ module.exports = {
     // run anywhere but on localhost
     webRtcTransport: {
       listenIps: [
-        { ip: "0.0.0.0", announcedIp: "192.168.0.138" },
+        { ip: "127.0.0.1", announcedIp:null },
         // { ip: "192.168.42.68", announcedIp: null },
         // { ip: '10.10.23.101', announcedIp: null },
       ],
